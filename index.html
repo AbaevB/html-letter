@@ -9,7 +9,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Html Email</title>
   <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+    [style*="Verdana"] {
+			font-family: 'Verdana', arial, sans-serif !important;
+		}
+
+    img {
+			outline: none;
+			text-decoration: none;
+			border: none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100% !important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+    table td {
+			border-collapse: collapse;
+		}
 
     table {
       border-spacing: 0;
@@ -17,107 +43,30 @@
       mso-padding-alt: 0;
     }
 
-    td {
-      padding: 0;
-    }
-
-    #outlook a {
-      padding: 0;
-    }
-
-    a {
-      text-decoration: none;
-      color: #e8fbfa;
-      font-size: 16px;
-    }
-
-    @media screen and (max-width: 599.98px) {}
-
-    @media screen and (max-width: 399.98px) {
-      .mobile-padding {
-        padding-right: 10px !important;
-        padding-left: 10px !important;
-      }
-
-			img {
-				max-width: 100% !important;
-			}
-
-      .two-columns .column {
-        width: 100% !important;
-        max-width: 100% !important;
-      }
-
-      .two-columns .column img {
-        width: 100% !important;
-        max-width: 100% !important;
+    @media (max-width: 620px) {
+      .table-600  {
+        width: 280px !important;
       }
     }
+
 
   </style>
 
-  <!--[if (gte mso 9)|(IE)]>
-    <style type="text/css">
-      table {border-collapse: collapse !important;}
-    </style>
-  <![endif]-->
-
-  <!--[if (gte mso 9)|(IE)]>
-  <xml>
-    <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-  </o:OfficeDocumentSettings>
-  </xml>
-  <![endif]-->
 </head>
 
-<body style="Margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+<body style="Margin:0;padding:0;">
 
-  <!--[if (gte mso 9)|(IE)]>
-      <style type="text/css">
-         body {background-color: #dde0e1!important;}
-         body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
-      </style>
-   <![endif]-->
-
-  <center style="width:100%;table-layout:fixed;background-color: #dde0e1;padding-top: 40px;padding-bottom: 40px;">
-    <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
-
-      <!-- Preheader (remove comment) -->
-      <div
-        style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
-        Прехедер письма
-      </div>
-      <!-- End Preheader (remove comment) -->
-
-      <!--[if (gte mso 9)|(IE)]>
-        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
-          style="color:#565656;">
-        <tr>
-        <td>
-      <![endif]-->
-
-      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="color:#565656;font-family: 'Inter',sans-serif, Arial, Helvetica;
-        background-color: #fafdfe;Margin:0;padding:0;width: 100%;max-width: 600px;">
-        <!-- first block  -->
-        <tr>
-          <td>
-            Some content
-          </td>
-        </tr>
-        <!-- End first block -->
-      </table>
-
-      <!--[if (gte mso 9)|(IE)]>
-        </td>
-        </tr>
-        </table>
-      <![endif]-->
-
+    <div style="font-size: 0px; font-color:#fff; opacity: 0; visibility: hidden; width: 0; height: 0; display: none;">
+      Тестовое письмо
     </div>
-  </center>
 
+    <table cellpadding="0" cellspacing="0" class="table-600" width="600" bgcolor="#fff" align="center">
+      <tr>
+        <td>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia cumque esse provident quasi. Quod aperiam, asperiores, debitis ad vel expedita consequuntur facilis tempore eaque, unde excepturi. Reprehenderit, voluptatum id!
+        </td>
+      </tr>
+    </table>
 </body>
 
 </html>
