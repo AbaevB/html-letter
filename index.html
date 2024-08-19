@@ -43,9 +43,31 @@
       mso-padding-alt: 0;
     }
 
+    .center {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+
+    .logo {
+      padding-bottom: 32px;
+    }
+
+    .title  {
+      margin: 0;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 44px;
+      color: #fff;
+    }
+
     @media (max-width: 620px) {
       .table-600  {
         width: 280px !important;
+      }
+
+      .table-480  {
+        width: 240px !important;
       }
     }
 
@@ -63,7 +85,26 @@
     <table cellpadding="0" cellspacing="0" class="table-600" width="600" bgcolor="#fff" align="center">
       <tr>
         <td>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia cumque esse provident quasi. Quod aperiam, asperiores, debitis ad vel expedita consequuntur facilis tempore eaque, unde excepturi. Reprehenderit, voluptatum id!
+          <table class="top table-600" cellpadding="0" cellspacing="0" width="600" bgcolor="#1b54dd">
+            <tr>
+              <td align="center" class="center">
+                <table width="480" class="table-480" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td class="logo" align="center">
+                      <img src="logo.png" alt="logo">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <h1 class="title" style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+                        I am Beyoncé always.
+                      </h1>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>
